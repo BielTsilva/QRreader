@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Outfit&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+body{
+    background-color: hsl(220, 15%, 55%);
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    display: block;
+    width: 96%;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: contain;
+    border-radius: 5px;
+}
+
+.main-card{
+    margin-top: 5px;
+}
+
+.container{
+    margin-top: 23vh;
+    max-width: 17%;
+    border-radius: 10px;
+    padding: 8px;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.text-container{
+    margin-top: 16px;
+    text-align: center;
+}
+
+.paragraph-content{
+    margin-top: 15px;
+    margin-bottom: 25px;
+    font-size: 15px;
+    color: hsl(212, 45%, 89%);
+    padding: 5px;
+}
+
+@media screen and (max-width: 400px) {
+    .container{
+        max-width: 86%;
+        height: 60vh;
+        overflow: hidden;
+    }
+
+    .text-container{
+        font-size: larger;
+        font-weight: bolder;
+    }
+}
